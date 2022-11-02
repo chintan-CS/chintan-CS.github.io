@@ -147,7 +147,7 @@
                     class="home__blob-img"
                     x="10"
                     y="0"
-                    xlink:href="https://github.com/chintan-CS/chintan-CS.github.io/blob/main/chintan2.png?raw=true"
+                    xlink:href="Chintan2.png"
                   />
                 </g>
               </svg>
@@ -750,7 +750,7 @@
               class="home__blob-img"
               x="10"
               y="0"
-              xlink:href="https://github.com/chintan-CS/chintan-CS.github.io/blob/main/chintan2.png?raw=true"
+              xlink:href="Chintan2.png"
             />
           </g>
         </svg>
@@ -820,37 +820,38 @@
               </div>
             </div>
           </div>
-          <form action="" class="contact__form grid">
+          <form action="https://formspree.io/f/maykpqpd" method="POST" class="contact__form grid">
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input" />
+                <input type="name" class="contact__input" />
               </div>
               <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input" />
+                <label class="contact__label">Your email</label>
+                <input type="email" name="email" class="contact__input">
               </div>
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Project</label>
-              <input type="text" class="contact__input" />
+              <label class="contact__label">Project</label>
+              <!-- <input type="message" name="message" class="contact__input" /> -->
+              <input type="message" name="subject" class="contact__input"/>
             </div>
             <div class="contact__content">
               <label for="" class="contact__label">Message</label>
               <textarea
-                name=""
+                name="message"
                 id=""
                 cols="0"
                 rows="2"
                 class="contact__input"
               ></textarea>
             </div>
+            
             <div>
-              <a href="#" class="button button--flex"
-                >Send Message <i class="uil uil-message button__icon"></i
-              ></a>
+              <button type="submit" class="button button--flex">Send Message <i class="uil uil-message button__icon"></i></button>
             </div>
-          </form>
+          
+            </form>
         </div>
       </section>
     </main>
@@ -903,7 +904,7 @@
               ><i class="uil uil-linkedin"></i
             ></a>
             <a
-              href="https://www.instagram.com/_chintannnnn_/"
+              href="https://www.instagram.com/imtheaddy/"
               class="footer__social"
               target="__blank"
               ><i class="uil uil-instagram"></i
